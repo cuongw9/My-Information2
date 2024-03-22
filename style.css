@@ -1,0 +1,232 @@
+/*Reset css*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*css with 540*/
+.wrapper {
+    width: 414px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    max-height: 260px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 58%;
+    left: calc(50% - 80px);
+    border: 2px solid #fff;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 16px;
+    margin-top: 10px;
+}   
+
+.body {
+    width: 100%;
+    padding: 30px 20px 20px;
+}
+
+/* side bar*/
+.sidebar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    
+    padding: 10px 26px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    border: 1px solid #FE676E;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn-active {
+    background: linear-gradient(to right, #FE676E, #FD8F52);
+    color: white;
+    border: 1px solid transparent;
+}
+
+/* about */
+.item {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 70px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.link {
+    padding-left: 30px;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+
+.bank {
+    margin-bottom: 20px;
+    padding: 30px 0 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bank-type {
+    width: 140px;
+    height: auto;
+}
+
+.bank-qr {
+    width: 80%;
+    height: auto;
+}
+
+.bank-name,.bank-number
+,.bank-description {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* shop */
+.shop {
+    width: 100%;
+    padding: 0 10px;
+    display: none;
+}
+
+.shop-contact {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.shop-item {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.shop-img {
+    width: 240px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shop-name {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.shop-price {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+    color: #EE4D2D;
+}
+
+.shop-line {
+    font-size: 24px;
+    margin: 0 8px;
+    color: #929292;
+}
+
+.shop-price-before {
+    color: #929292;
+    text-decoration: line-through;
+}
+
+/* reponsitory */
+@media screen and (max-width: 394px){
+    .wrapper {
+        width: 393px;
+    }
+} 
+
+@media screen and (max-width: 361px){
+    .wrapper {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 281px){
+    .wrapper {
+        width: 280px;
+    }
+}
